@@ -25,8 +25,8 @@ integrate more complex data that would help illustrate the phenomenon of desindu
 experienced in the time period between 1980 and 2010. 
 
 The DetroitPack contains:
-      MI_1980 - 1980 Demographic and Poverty realted data for the state of Michigan
-      MI_2010 - 2010 Demographic and Poverty(+) related data for the state of Michigan
-      Detroit3593 - City of Detroit Boundaries
-      Dtracts80 - 1980 Census tracts that intersect with City of Detroit Boundaries
-      Dtracts10 - 2010 Census tracts that intersect with City of Detroit Boundaries
+      1. MI_1980 - 1980 Demographic and Poverty realted data for the state of Michigan
+      2. MI_2010 - 2010 Demographic and Poverty(+) related data for the state of Michigan
+      3. Detroit3593 - City of Detroit Boundaries
+      4. Dtracts80 - 1980 Census tracts that intersect with City of Detroit Boundaries
+      5. Dtracts10 - 2010 Census tracts that intersect with City of Detroit Boundaries
