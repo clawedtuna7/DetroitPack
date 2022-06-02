@@ -1,12 +1,13 @@
 Package: DetroitPack
 Type: Package
-Title: What the Package Does (Title Case)
+Title: DEINDUSTRIALIZATION'S EFFECTS IN THE CITY OF DETROIT
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Authors@R: 
+    person("Noel", "Garcia", , "ngarcia7@uchicago.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/0000-0002-4623-0878"))
+Description: This package aims to provide researchers and analysists with very basic demographic and poverty related data for the years 1980 and 2010. With the hopes that this package would allow for those interested to quickly delve into analyses without worrying to dowload, access, and wrangle the (clean) data already contained here.This is purposely a very basic package, allowing to serve as the basis for even greater and richer analyses.
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Depends: 
