@@ -35,3 +35,8 @@ The DetroitPack contains:
 4. Dtracts80 - 1980 Census tracts that intersect with City of Detroit Boundaries
       
 5. Dtracts10 - 2010 Census tracts that intersect with City of Detroit Boundaries
+
+
+## Example Analysis
+
+             
