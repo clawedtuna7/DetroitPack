@@ -28,6 +28,18 @@ Looking at three variables available in both of the MI_xxxx sets, this analysis 
 selected variables accross the 30 year gap between data sets. 
 
 ```{r}
+tm_shape(Det1980) + tm_polygons(col = "totpop1980Pr", style = "jenks") + tm_shape(Detroit3593) + tm_borders(col = "black", lwd = 2)
+
+tm_shape(Det1980) + tm_polygons(col = "Poverty80Pr", style = "jenks", palette = "Blues") + tm_shape(Detroit3593) + tm_borders(col = "black", lwd = 2)
+
+tm_shape(Det1980) + tm_polygons(col = "aframPr80", style = "jenks", palette = "Greens") + tm_shape(Detroit3593) + tm_borders(col = "black", lwd = 2)
+```
+
+<img width="574" alt="1980" src="https://user-images.githubusercontent.com/104933882/171603067-d091af2a-676b-4f6f-9ad6-b38c6d292ad0.png">
+
+Looking at the population percentage, one can see that the center of the city is less populated, compared to the rest of the tracts within and outside the city. Despite this area being the less populated region of the city, this is the area that has a higher proportion of those living under poverty - especially the area just west of the center of the city. Comparing the African American population proportion map with the maps above, one can see that the African American population makes up the majority in a lot of the tracts within the city. Because of this, this share of the population of Detroit experiences a range of poverty values, with the center and western part of the population being the regions which experience living under impoverished conditions
+
+```{r}
 tm_shape(Det2010) + tm_polygons(col = "totpop2010Pr", style = "jenks") + tm_shape(Detroit3593) + tm_borders(col = "black", lwd = 2)
 
 tm_shape(Det2010) + tm_polygons(col = "Poverty", style = "jenks", palette = "Blues") + tm_shape(Detroit3593) + tm_borders(col = "black", lwd = 2)
@@ -35,13 +47,8 @@ tm_shape(Det2010) + tm_polygons(col = "Poverty", style = "jenks", palette = "Blu
 tm_shape(Det2010) + tm_polygons(col = "aframPr10", style = "jenks", palette = "Greens") + tm_shape(Detroit3593) + tm_borders(col = "black", lwd = 2)
 ```
 
-<img width="574" alt="1980" src="https://user-images.githubusercontent.com/104933882/171603067-d091af2a-676b-4f6f-9ad6-b38c6d292ad0.png">
-
-Looking at the population percentage, one can see that the center of the city is less populated, compared to the rest of the tracts within and outside the city. Despite this area being the less populated region of the city, this is the area that has a higher proportion of those living under poverty - especially the area just west of the center of the city. 
-Comparing the African American population proportion map with the maps above, one can see that the African American population makes up the majority in a lot of the tracts within the city. Because of this, this share of the population of Detroit experiences a range of poverty values, with the center and western part of the population being the regions which experience living under impoverished conditions
-
-
 <img width="602" alt="2010" src="https://user-images.githubusercontent.com/104933882/171603097-c7f01a03-bd15-45f1-b0c3-b3a30bbe9d61.png">
 
+For the set of maps in 2010, one can clearly see that these are all different from the first set of maps. The population proportion map shows that tracts within the Detroit borders, compared to those outside of the borders, have a smaller proportion of the population - with the center of the city, again, housing the least people. The poverty proportion map, unlike the one above, seems to be much more dispersed and, seemingly, more random. One could infer that this could be a result of the tumultuous economic period the city was going through after the 2008 recession, which would eventually lead to the declaration of bankruptcy in 2013. The share of African Americans in the city between 1980 and 2010 exploded. This is mostly true for the tracts inside the city boundary, but no so much for those tracts outside the city - especially those on the northern end and the unincorporated region at the center of the city. 
 
              
