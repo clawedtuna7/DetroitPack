@@ -21,5 +21,12 @@ and encouraged automation, or physically moved their businesses in search of che
 Today, the city of Detroit is different from what it was 10 years ago, and even more different from what it was 40 years ago.
 The change of Detroit, economically and demographically, is what this package explores and models. Basic in its initial
 data sets, this package aims to serve as the basis for a greater analysis, ~~inviting~~ ecouraging those interested to 
-integrate more complex data that woukd help illustrate the phenomenon of desindustrialization the City of Detroit 
+integrate more complex data that would help illustrate the phenomenon of desindustrialization the City of Detroit 
 experienced in the time period between 1980 and 2010. 
+
+The DetroitPack contains:
+      MI_1980 - 1980 Demographic and Poverty realted data for the state of Michigan
+      MI_2010 - 2010 Demographic and Poverty(+) related data for the state of Michigan
+      Detroit3593 - City of Detroit Boundaries
+      Dtracts80 - 1980 Census tracts that intersect with City of Detroit Boundaries
+      Dtracts10 - 2010 Census tracts that intersect with City of Detroit Boundaries
