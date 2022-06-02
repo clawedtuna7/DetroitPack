@@ -39,4 +39,9 @@ The DetroitPack contains:
 
 ## Example Analysis
 
+<img width="574" alt="1980" src="https://user-images.githubusercontent.com/104933882/171603067-d091af2a-676b-4f6f-9ad6-b38c6d292ad0.png">
+
+<img width="602" alt="2010" src="https://user-images.githubusercontent.com/104933882/171603097-c7f01a03-bd15-45f1-b0c3-b3a30bbe9d61.png">
+
+
              
