@@ -22,7 +22,7 @@ The DetroitPack contains:
 5. Dtracts10 - 2010 Census tracts that intersect with City of Detroit Boundaries
 
 
-## Example Analysis
+## Mini Example Analysis
 
 Looking at three variables available in both of the MI_xxxx sets, this analysis will aim to model the changes in each of these 
 selected variables accross the 30 year gap between data sets. 
@@ -51,4 +51,10 @@ tm_shape(Det2010) + tm_polygons(col = "aframPr10", style = "jenks", palette = "G
 
 For the set of maps in 2010, one can clearly see that these are all different from the first set of maps. The population proportion map shows that tracts within the Detroit borders, compared to those outside of the borders, have a smaller proportion of the population - with the center of the city, again, housing the least people. The poverty proportion map, unlike the one above, seems to be much more dispersed and, seemingly, more random. One could infer that this could be a result of the tumultuous economic period the city was going through after the 2008 recession, which would eventually lead to the declaration of bankruptcy in 2013. The share of African Americans in the city between 1980 and 2010 exploded. This is mostly true for the tracts inside the city boundary, but no so much for those tracts outside the city - especially those on the northern end and the unincorporated region at the center of the city. 
 
-             
+
+## Package Limitations
+What is presented in this package is only a sliver of what I had planned to include. The original idea for this package was to gather the same type of data, demographic and poverty related data, but at a much greater scale. The original idea was to gather data for all of the Rust Belt. Having done a similar project for the city of Chicago last quarter, I was ambitious enough to scale up the project to contain the Rust Belt. Everything was going to plan until I was unable to find reliable source for a shapefile that contained 1980 tracts for the Rust Belt region. The closest I came to was finding 1980 tracts greater metropolitan areas of the US. Because of this, this project was massively scaled down to include only the city of Detroit. 
+
+The wrangling of the data was surprisingly fun. I believe I was able to effectively wrangle and standardize the data, but I kind of wish I was able to include a dataset or some type of spatial file that would connect this package to the industrial/manufacturing themes. My project last quarter included Chicago's Industrial Corridors, which in a way, grounded the project. The DetroitPack has no data of the sort, and its something I would have liked to include if I had more time. 
+
+
